@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <meta property="og:title" content="Edward's Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Welcome to Edward's Portfolio, a frontend developer"
+    />
+    <meta property="og:image" content="/images/card.jpg" />
+    <meta property="og:url" content="http://127.0.0.1:5500/finalproject.html" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Edward's Developer Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Portfolio of Edward, a frontend developer."
+    />
+    <meta name="twitter:image" content="/images/card.jpg" />
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+    </style>
+  </head>
+  <body class="container mx-auto font-heebo">
+    <!-- header -->
+    <header class="flex justify-end p-6">
+      <svg
+        class="md:hidden"
+        width="20px"
+        height="20px"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 18L20 18"
+          stroke="#000000"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <path
+          d="M4 12L20 12"
+          stroke="#000000"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <path
+          d="M4 6L20 6"
+          stroke="#000000"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+
+      <nav class="hidden md:block px-2">
+        <ul class="flex justify-between gap-4 font-medium">
+          <li>
+            <a
+              href="#"
+              class="text-lg hover:underline decoration-blue-500 decoration-2 cursor-pointer"
+              >Works</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-lg hover:underline decoration-blue-500 decoration-2 cursor-pointer"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-lg hover:underline decoration-blue-500 decoration-2 cursor-pointer"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <br /><br />
+
+    <!-- Main content -->
+    <main class="max-w-full mx-auto p-6">
+      <!-- creative tech and picture -->
+      <section
+        class="max-w-full flex flex-col-reverse md:flex-row md:justify-center items-center text-center md:text-left"
+      >
+        <div class="md:w-1/2">
+          <h1 class="text-4xl lg:text-5xl font-bold text-[#21243D]">
+            Hi, I am Edward,<br />Web Developer
+          </h1>
+          <p class="mt-4 text-[#21243D]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <a
+            href="/resume/EDDY CV.pdf"
+            download="/resume/EDDY CV.pdf"
+            class="inline-flex items-center px-6 py-3 bg-[#FF6464] text-white font-medium text-xl mt-5"
+          >
+            Download Resume
+          </a>
+        </div>
+        <div class="mb-8 md:w-1/2 mt-8 md:mt-0 md:flex md:justify-end">
+          <img
+            src="/images/edd.jpg"
+            alt="Eddy's image"
+            class="w-60 h-60 rounded-full"
+          />
+        </div>
+      </section>
+      <br /><br />
+
+      <!-- Recent Posts Section -->
+      <section class="bg-[#EDF7FA] md:max-w-full p-6 rounded-lgmt-16">
+        <div class="flex justify-between items-center">
+          <h2 class="text-xl font-semibold text-gray-800">Recent posts</h2>
+          <a href="#" class="text-[#00A8CC] hover:underline">View all</a>
+        </div>
+
+        <div class="flex flex-col justify-center md:flex-row gap-6 mt-6">
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl text[#21243D] font-bold mb-3">
+              Making a design system from scratch
+            </h3>
+            <p class="flex gap-5 mb-3 text-[#21243D] text-lg mt-2">
+              12 Feb 2020 | Design, Pattern
+            </p>
+            <p class="text-[#21243D] mt-4">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl text[#21243D] font-bold mb-3">
+              Creating pixel perfect icons in Figma
+            </h3>
+            <p class="flex gap-5 mb-3 text-[#21243D] text-lg mt-2">
+              12 Feb 2020 | Figma, Icon Design
+            </p>
+            <p class="text-[#21243D] mt-4">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Works Section -->
+      <section class="mt-16">
+        <h2 class="text-2xl font-semibold text-[#21243D]">Featured works</h2>
+        <div class="mt-6 space-y-6">
+          <div class="flex flex-col md:flex-row items-center p-6">
+            <img
+              src="/images/Rectangle 30.png"
+              alt="Designing Dashboards"
+              class="w-full md:w-40 h-auto rounded-md"
+            />
+            <div class="mt-4 md:mt-0 md:ml-6">
+              <h3 class="text-2xl font-bold text-[#21243D]">
+                Designing Dashboards
+              </h3>
+              <span
+                class="inline-block mt-2 bg-[#142850] text-lg font-bold px-2 py-1 rounded-full text-sm text-white"
+                >2020</span
+              >
+              <span class="inline-block ml-4 text-[#8695A4]">Dashboard</span>
+              <p class="text-[#21243D] mt-2">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+          <hr />
+
+          <div class="flex flex-col md:flex-row items-center p-6">
+            <img
+              src="/images/Rectangle 32.png"
+              alt="Vibrant Portraits of 2020"
+              class="w-full md:w-40 h-auto rounded-md"
+            />
+            <div class="mt-4 md:mt-0 md:ml-6">
+              <h3 class="text-2xl font-bold text-[#21243D]">
+                Vibrant Portraits of 2020
+              </h3>
+              <span
+                class="inline-block mt-2 bg-[#142850] text-lg font-bold px-2 py-1 rounded-full text-sm text-white"
+                >2018</span
+              >
+              <span class="inline-block ml-4 text-[#8695A4]">Illustration</span>
+              <p class="text-[#21243D] mt-2">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+          <hr />
+
+          <div class="flex flex-col md:flex-row items-center p-6">
+            <img
+              src="/images/Rectangle 34.png"
+              alt="36 Days of Malayalam type"
+              class="w-full md:w-40 h-auto rounded-md"
+            />
+            <div class="mt-4 md:mt-0 md:ml-6">
+              <h3 class="text-2xl font-bold text-[#21243D]">
+                36 Days of Malayalam type
+              </h3>
+              <span
+                class="inline-block mt-2 bg-[#142850] text-lg font-bold px-2 py-1 rounded-full text-sm text-white"
+                >2018</span
+              >
+              <span class="inline-block ml-4 text-[#8695A4]">Typography</span>
+              <p class="text-[#21243D] mt-2">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-16 mb-16 text-center text-gray-600">
+      <div class="flex justify-center gap-5">
+        <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="mt-4">© 2020 All rights reserved</p>
+    </footer>
+  </body>
+</html>
